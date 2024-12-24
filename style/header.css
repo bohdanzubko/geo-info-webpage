@@ -1,0 +1,26 @@
+.search-form input[type="text"]{
+	max-width: 250px;
+	min-width: 110px;
+	background-color: transparent;
+	border-radius: 0;
+	color: #fff;
+}
+
+.search-form input[type="text"]::placeholder{
+	color: #fff;
+}
+
+@media screen and (min-width: 768px){
+	.search-form{
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 454px){
+	.header>*{
+		padding: 0 5px 0 0;
+	}
+	.search-btn{
+		display: none;
+	}
+}

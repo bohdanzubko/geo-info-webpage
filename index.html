@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="ukr">
+
+<head>
+	<title>WanderCarpathians - туристичний путівник українськими Карпатами</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+		rel="stylesheet">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="style/style.css">
+</head>
+
+<body class="body">
+<div class="wrapper w-auto my-0 mx-auto">
+	<header class="d-flex justify-content-between">
+		<div id="menuButton" onclick="toggleMenu()">☰</div>
+		<div id="menuBgrd" onclick="toggleMenu()"></div>
+		<div id="hiddenMenu" class="container">
+			<ul class="nav d-flex flex-column" id="navId">
+				<li class="nav-item pt-5">
+					<a href="index.html" class="nav-link active">Головна</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" id="tripsDropdown" data-toggle="dropdown" href="#"
+						role="button" aria-haspopup="true" aria-expanded="false">Туристичні маршрути</a>
+					<div class="dropdown-menu" aria-labelledby="tripsDropdown">
+						<a class="dropdown-item" href="tours.html?id=9">Гора Високий камінь</a>
+						<a class="dropdown-item" href="tours.html?id=10">Гора Парашка</a>
+						<a class="dropdown-item" href="tours.html?id=3">Скелі Довбуша</a>
+						<a class="dropdown-item" href="tours.html?id=8">Піп Іван Чорногірський</a>
+						<a class="dropdown-item" href="tours.html?id=1">Озеро Марічейка</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="tours.html">Більше маршрутів</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a href="map.html" class="nav-link">Інтерактивна мапа</a>
+				</li>
+				<li class="nav-item">
+					<a href="about-us.html" class="nav-link">Про нас</a>
+				</li>
+				<li class="nav-item">
+					<a href="gallery.html" class="nav-link">Галерея</a>
+				</li>
+				<li class="nav-item">
+					<a href="help.html" class="nav-link">Допомога</a>
+				</li>
+			</ul>
+		</div>
+		<div class="container"></div>
+		<a href="index.html">
+			<div class="container logo d-flex flex-column justify-content-center align-items-center m-0">
+				<img class="logo-img py-2" src="images/svg/logo.svg">
+				<h1 class="logo-text m-0">WanderCarpathians</h1>
+			</div>
+		</a>
+		<div class="search-form input-group d-flex justify-content-end align-items-center mr-auto">
+			<input type="text" class="form-control" placeholder="Search" aria-label="Search">
+			<div class="input-group-append mx-2">
+				<button class="search-btn btn btn-outline-secondary" type="button">Search</button>
+			</div>
+		</div>
+	</header>
+	<main>
+		<!-- Welcome -->
+		<div class="welcome-msg container-fluid d-flex flex-column justify-content-center align-items-center"
+			style="background-image: url(images/jpg/welcome/main-welcome.jpg);">
+			<h2 class="text-center">Мандруй впевнено!</h2>
+			<p>Путівник Українськими Карпатами</p>
+		</div>
+		<!-- Categories -->
+		<div class="container-fluid mt-5">
+			<h2 class="text-center mb-4">Категорії відпочинку</h2>
+			<div class="advices d-flex justify-content-center mb-5">
+				<p class="advice-text text-center">Розпочинай планування подорожі з розділу "Категорії відпочинку" —
+					обирай потрібну
+					тему та відкривай для себе найкращі локації Карпат. Ми допоможемо визначитися,
+					куди поїхати та де зупинитися, адже в кожному розділі ти знайдеш пропозиції житла
+					поруч із популярними туристичними місцями.</p>
+			</div>
+			<div class="row no-gutters">
+				<div class="card col-md-6">
+					<div class="cat-card">
+						<a class="card-link" href="#">
+							<div class="card-body">
+								<h4 class="card-title">Населені пункти</h4>
+								<p class="card-text text-center">Міста та села Карпат</p>
+							</div>
+						</a>
+						<img class="card-bg" src="images/jpg/categories/category-1.jpg" alt="">
+					</div>
+				</div>
+				<div class="card col-md-6">
+					<div class="cat-card">
+						<a class="card-link" href="tours.html">
+							<div class="card-body">
+								<h4 class="card-title">Туристичні маршрут</h4>
+								<p class="card-text text-center">Маршрути для пішохідного та велотуризму у Карпатах
+								</p>
+							</div>
+						</a>
+						<img class="card-bg" src="images/jpg/categories/category-2.jpg" alt="">
+					</div>
+				</div>
+				<div class="card col-md-6">
+					<div class="cat-card">
+						<a class="card-link" href="#">
+							<div class="card-body">
+								<h4 class="card-title">Водні ресурси</h4>
+								<p class="card-text text-center">Річки, озера, водоспади Карпат</p>
+							</div>
+						</a>
+						<img class="card-bg" src="images/jpg/categories/category-3.jpg" alt="">
+					</div>
+				</div>
+				<div class="card col-md-6">
+					<div class="cat-card">
+						<a class="card-link" href="#">
+							<div class="card-body">
+								<h4 class="card-title">Екстремальний відпочинок</h4>
+								<p class="card-text text-center">Неготельний відпочинок у Карпатах</p>
+							</div>
+						</a>
+						<img class="card-bg" src="images/jpg/categories/category-4.jpg" alt="">
+					</div>
+				</div>
+				<div class="more-info container-fluid py-4 d-flex justify-content-center align-items-center">
+					<a class="link" href="" role="button"><button class="btn btn-primary">Всі категорії</button></a>
+				</div>
+			</div>
+		</div>
+		<!-- Directions -->
+		<div class="container-fluid mt-5">
+			<h2 class="text-center mb-4">Напрямки</h2>
+			<div class="advices d-flex justify-content-center mb-5">
+				<p class="advice-text text-center">Куди поїхати? Що варто побачити? Де найзручніше орендувати житло?
+					У цьому розділі ти легко знайдеш відповіді на всі ці запитання. Незалежно від місця твоєї
+					зупинки,
+					ми підкажемо, як максимально цікаво провести час і зробити відпочинок у Карпатах незабутнім!
+				</p>
+			</div>
+			<div class="row no-gutters">
+				<div class="card container-fluid">
+					<div class="dir-card">
+						<div class="card-body">
+							<h4 class="card-title"><a class="link" href="#">Східні Бескиди</a></h4>
+							<p class="card-text">Східні Бескиди — гірський масив «зеленого» туризму та лижних
+								курортів. А їх тут чимало!</p>
+							<ul class="card-places list-inline">
+								<a class="link" href="">
+									<li class="dark-bg-box list-inline-item">Славське</li>
+								</a>
+								<a class="link" href="">
+									<li class="dark-bg-box list-inline-item">Пилипець</li>
+								</a>
+								<a class="link" href="">
+									<li class="dark-bg-box list-inline-item">Подобовець</li>
+								</a>
+								<a class="link" href="">
+									<li class="dark-bg-box list-inline-item">Красія</li>
+								</a>
+								<a class="link" href="">
+									<li class="dark-bg-box list-inline-item">Волосянка</li>
+								</a>
+								<a class="link" href="">
+									<li class="dark-bg-box list-inline-item">Жденієво</li>
+								</a>
+								<a class="link" href="">
+									<li class="dark-bg-box list-inline-item">Нижній Студений</li>
+								</a>
+							</ul>
+							<p class="card-description">Це округлі невисокі гори з пологими схилами, вкритими
+								густими буковими
+								та ялиновими лісами. Улітку цей регіон стає осередком еко-туризму, а взимку
+								перетворюється на
+								ідеальне місце для гірськолижного відпочинку. Головна особливість катання тут –
+								довгі траси
+								(понад 5 км), різноманітний рельєф і просторі полонини, що чудово підходять як для
+								новачків,
+								так і для любителів фрірайду.</p>
+						</div>
+						<img class="card-bg img-brt" src="images/jpg/directions/direction-1.jpg" alt="">
+					</div>
+				</div>
+				<div class="card container-fluid">
+					<div class="dir-card">
+						<div class="card-body">
+							<h4 class="card-title"><a class="link" href="#">Район курорту Драгобрат</a></h4>
+							<p class="card-text">Найвисокогірніший курорт в Україні, справжня мекка для лижників та
+								бордистів звідусюди!</p>
+							<ul class="card-places list-inline">
+								<a class="link" href="">
+									<li class="dark-bg-box list-inline-item">Драгобрат</li>
+								</a>
+								<a class="link" href="">
+									<li class="dark-bg-box list-inline-item">Ясіня</li>
+								</a>
+								<a class="link" href="">
+									<li class="dark-bg-box list-inline-item">Лазещина</li>
+								</a>
+								<a class="link" href="">
+									<li class="dark-bg-box list-inline-item">Кваси</li>
+								</a>
+							</ul>
+							<p class="card-description">На Драгобраті сезон катання може тривати аж до середини
+								травня! Круті схили,
+								протяжні траси, численні зони для фрірайду, унікальний рельєф і природний сніговий
+								покрив — це
+								справжня мрія для всіх любителів зимових видів спорту. Де зупинитися, які траси
+								обрати та як
+								організувати розваги взимку чи в будь-яку іншу пору року, якщо ви опинилися на
+								Драгобраті або поблизу?</p>
+						</div>
+						<img class="card-bg img-brt" src="images/jpg/directions/direction-2.jpg" alt="">
+					</div>
+				</div>
+				<div class="card container-fluid">
+					<div class="dir-card">
+						<div class="card-body">
+							<h4 class="card-title"><a class="link" href="#">Зелена перлина Карпат</a></h4>
+							<p class="card-text">Так називають справжній карпатський скарб — місто Яремче та близькі
+								до нього населені пункти.</p>
+							<ul class="card-places list-inline">
+								<a class="link" href="">
+									<li class="dark-bg-box list-inline-item">Яремче</li>
+								</a>
+								<a class="link" href="">
+									<li class="dark-bg-box list-inline-item">Буковель</li>
+								</a>
+								<a class="link" href="">
+									<li class="dark-bg-box list-inline-item">Ворохта</li>
+								</a>
+								<a class="link" href="">
+									<li class="dark-bg-box list-inline-item">Микуличин</li>
+								</a>
+								<a class="link" href="">
+									<li class="dark-bg-box list-inline-item">Татарів</li>
+								</a>
+								<a class="link" href="">
+									<li class="dark-bg-box list-inline-item">Яблуниця</li>
+								</a>
+							</ul>
+							<p class="card-description">Яремче – одне з перших місць, яке згадують, коли йдеться про
+								Карпати. Тут природа дивовижно
+								поєднується з автентичною гуцульською культурою, що приваблює численних туристів
+								протягом року. Близькість до
+								найвідомішого українського гірськолижного курорту "Буковель" лише додає популярності
+								цьому регіону, незалежно
+								від того, чи за вікном зима, чи літо в самому розпалі!</p>
+						</div>
+						<img class="card-bg img-brt" src="images/jpg/directions/direction-3.jpg" alt="">
+					</div>
+				</div>
+				<div class="more-info container-fluid py-4  d-flex justify-content-center align-items-center">
+					<a class="link" href="" role="button"><button class="btn btn-primary">Всі напрямки</button></a>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!-- Optional JavaScript -->
+	<script src="script/script.js"></script>
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+	<footer>
+		<hr class="divid mx-3">
+		<div class="f-content d-flex justify-content-between px-5 py-4">
+			<div class="f-main op-change">
+				<h3>WanderCarpathians</h3>
+				<ul class="f-links">
+					<li><a class="link" href="index.html">Головна</a></li>
+					<li><a class="link" href="tours.html">Туристичні маршрути</a></li>
+					<li><a class="link" href="map.html">Інтерактивна мапа</a></li>
+					<li><a class="link" href="about-us.html">Про нас</a></li>
+					<li><a class="link" href="gallery.html">Галерея</a></li>
+					<li><a class="link" href="help.html">Допомога</a></li>
+				</ul>
+			</div>
+			<div class="f-cat op-change">
+				<h3>Категорії відпочинку</h3>
+				<ul class="f-links">
+					<li><a class="link" href="#">Населені пункти</a></li>
+					<li><a class="link" href="tours.html">Туристичні маршрути</a></li>
+					<li><a class="link" href="#">Водні ресурси</a></li>
+					<li><a class="link" href="#">Екстремальний відпочинок</a></li>
+					<li><a class="link" href="#">Всі категорії</a></li>
+				</ul>
+			</div>
+			<div class="f-directions op-change">
+				<h3>Напрямки</h3>
+				<ul class="f-links">
+					<li><a class="link" href="#">Східні бескиди</a></li>
+					<li><a class="link" href="#">Район курорту Драгобрат</a></li>
+					<li><a class="link" href="#">Зелена перлина Карпат</a></li>
+					<li><a class="link" href="#">Всі напрямки</a></li>
+				</ul>
+			</div>
+			<div class="f-contacts">
+				<h3>Контакти</h3>
+				<p>Номер телефону:<a href="tel:+380 66 025 0486"> +380 66 025 0486</a></p>
+				<p>Пошта:<a href="mailto:y.v.samokhvalova@student.khai.edu"> y.v.samokhvalova@student.khai.edu</a>
+				</p>
+			</div>
+		</div>
+		<hr class="divid mx-3">
+		<div class="f-bottom d-flex justify-content-between">
+			<a href="index.html">
+				<div
+					class="container logo op-change d-flex flex-column justify-content-center align-items-center m-0">
+					<img class="logo-img py-2" src="images/svg/logo.svg">
+				</div>
+			</a>
+			<ul class="f-socials op-change d-flex justify-content-center align-items-center">
+				<li class="m-1"><a href=""><img class="icon" src="images/svg/facebook_icon.svg" alt=""></a></li>
+				<li class="m-1"><a href=""><img class="icon" src="images/svg/instagram_icon.svg" alt=""></a></li>
+				<li class="m-1"><a href=""><img class="icon" src="images/svg/telegram_icon.svg" alt=""></a></li>
+				<li class="m-1"><a href=""><img class="icon" src="images/svg/twitter_icon.svg" alt=""></a></li>
+				<li class="m-1"><a href=""><img class="icon" src="images/svg/linkedIn_icon.svg" alt=""></a></li>
+				<li class="m-1"><a href=""><img class="icon" src="images/svg/youtube_icon.svg" alt=""></a></li>
+			</ul>
+			<p id="copyright" class="px-5 py-3">&copy;2024 WanderCarpathians<br>Всі права захищено</p>
+		</div>
+	</footer>
+</div>
+</body>
+
+</html>

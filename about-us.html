@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="ukr">
+
+<head>
+	<title>Хто такі WanderCarpathians?</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+		rel="stylesheet">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="style/style.css">
+</head>
+
+<body class="body">
+<div class="wrapper w-auto my-0 mx-auto">
+	<header class="d-flex justify-content-between">
+		<div id="menuButton" onclick="toggleMenu()">☰</div>
+		<div id="menuBgrd" onclick="toggleMenu()"></div>
+		<div id="hiddenMenu" class="container">
+			<ul class="nav d-flex flex-column" id="navId">
+				<li class="nav-item pt-5">
+					<a href="index.html" class="nav-link">Головна</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" id="tripsDropdown" data-toggle="dropdown" href="#"
+						role="button" aria-haspopup="true" aria-expanded="false">Туристичні маршрути</a>
+					<div class="dropdown-menu" aria-labelledby="tripsDropdown">
+						<a class="dropdown-item" href="tours.html?id=9">Гора Високий камінь</a>
+						<a class="dropdown-item" href="tours.html?id=10">Гора Парашка</a>
+						<a class="dropdown-item" href="tours.html?id=3">Скелі Довбуша</a>
+						<a class="dropdown-item" href="tours.html?id=8">Піп Іван Чорногірський</a>
+						<a class="dropdown-item" href="tours.html?id=1">Озеро Марічейка</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="tours.html">Більше маршрутів</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a href="map.html" class="nav-link">Інтерактивна мапа</a>
+				</li>
+				<li class="nav-item">
+					<a href="about-us.html" class="nav-link active">Про нас</a>
+				</li>
+				<li class="nav-item">
+					<a href="gallery.html" class="nav-link">Галерея</a>
+				</li>
+				<li class="nav-item">
+					<a href="help.html" class="nav-link">Допомога</a>
+				</li>
+			</ul>
+		</div>
+		<div class="container"></div>
+		<a href="index.html">
+			<div class="container logo d-flex flex-column justify-content-center align-items-center m-0">
+				<img class="logo-img py-2" src="images/svg/logo.svg">
+				<h1 class="logo-text m-0">WanderCarpathians</h1>
+			</div>
+		</a>
+		<div class="search-form input-group d-flex justify-content-end align-items-center mr-auto">
+			<input type="text" class="form-control" placeholder="Search" aria-label="Search">
+			<div class="input-group-append mx-2">
+				<button class="search-btn btn btn-outline-secondary" type="button">Search</button>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="welcome-msg container-fluid d-flex flex-column justify-content-center align-items-center"
+			style="background-image: url(images/jpg/welcome/about-us-welcome.jpg);">
+			<h2 class="text-center">Про нас</h2>
+		</div>
+		<div class="container-fluid text-justify p-5">
+			<h3>Ласкаво просимо</h3>
+			<p> Наш сайт, присвячений туристичним маршрутам у чарівних Карпатах! Ми створили цю
+				платформу, щоб поділитися з вами красою гір, допомогти у плануванні подорожей та зробити ваші
+				пригоди незабутніми.</p>
+			<p><strong>Наша місія</strong> – надихати людей досліджувати природу, пізнавати культуру Карпатського
+				регіону та дбати про збереження цих унікальних місць для майбутніх поколінь. Ми віримо, що кожен
+				маршрут – це не лише подорож, а й можливість відчути свободу, знайти гармонію та отримати новий
+				досвід.</p><br>
+			<h3>Що ми пропонуємо:</h3>
+			<ul>
+				<li><strong>Детальні маршрути:</strong> від легких прогулянок до складних гірських походів.</li>
+				<li><strong>Інтерактивна карта:</strong> зручний інструмент для навігації та планування.</li>
+				<li><strong>Корисні поради:</strong> інформація про спорядження, погоду та безпеку в горах.</li>
+				<li><strong>Локальні рекомендації:</strong> де зупинитися, що скуштувати і які місця варто відвідати.</li>
+			</ul><br>
+			<h3>Чому саме ми:</h3>
+			<p>Ми – команда ентузіастів, які люблять Карпати та добре знають їх. Наш досвід, отриманий під
+				час численних мандрівок, дозволяє нам ділитися практичною інформацією та секретами, які
+				зроблять ваш відпочинок комфортним і безпечним.</p>
+			<p>Приєднуйтеся до нас і вирушайте у свою наступну пригоду! Разом ми відкриємо для вас унікальні
+				куточки Карпат, які запам’ятаються на все життя. 🌄</p>
+			<p>Дякуємо, що обрали нас як свого провідника у світі карпатських мандрівок!</p>
+		</div>
+	</main>
+	<!-- Optional JavaScript -->
+	<script src="script/script.js"></script>
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+	<footer>
+		<hr class="divid mx-3">
+		<div class="f-content d-flex justify-content-between px-5 py-4">
+			<div class="f-main op-change">
+				<h3>WanderCarpathians</h3>
+				<ul class="f-links">
+					<li><a class="link" href="index.html">Головна</a></li>
+					<li><a class="link" href="tours.html">Туристичні маршрути</a></li>
+					<li><a class="link" href="map.html">Інтерактивна мапа</a></li>
+					<li><a class="link" href="about-us.html">Про нас</a></li>
+					<li><a class="link" href="gallery.html">Галерея</a></li>
+					<li><a class="link" href="help.html">Допомога</a></li>
+				</ul>
+			</div>
+			<div class="f-cat op-change">
+				<h3>Категорії відпочинку</h3>
+				<ul class="f-links">
+					<li><a class="link" href="#">Населені пункти</a></li>
+					<li><a class="link" href="tours.html">Туристичні маршрути</a></li>
+					<li><a class="link" href="#">Водні ресурси</a></li>
+					<li><a class="link" href="#">Екстремальний відпочинок</a></li>
+					<li><a class="link" href="#">Всі категорії</a></li>
+				</ul>
+			</div>
+			<div class="f-directions op-change">
+				<h3>Напрямки</h3>
+				<ul class="f-links">
+					<li><a class="link" href="#">Східні бескиди</a></li>
+					<li><a class="link" href="#">Район курорту Драгобрат</a></li>
+					<li><a class="link" href="#">Зелена перлина Карпат</a></li>
+					<li><a class="link" href="#">Всі напрямки</a></li>
+				</ul>
+			</div>
+			<div class="f-contacts">
+				<h3>Контакти</h3>
+				<p>Номер телефону:<a href="tel:+380 66 025 0486"> +380 66 025 0486</a></p>
+				<p>Пошта:<a href="mailto:y.v.samokhvalova@student.khai.edu"> y.v.samokhvalova@student.khai.edu</a>
+				</p>
+			</div>
+		</div>
+		<hr class="divid mx-3">
+		<div class="f-bottom d-flex justify-content-between">
+			<a href="index.html">
+				<div
+					class="container logo op-change d-flex flex-column justify-content-center align-items-center m-0">
+					<img class="logo-img py-2" src="images/svg/logo.svg">
+				</div>
+			</a>
+			<ul class="f-socials op-change d-flex justify-content-center align-items-center">
+				<li class="m-1"><a href=""><img class="icon" src="images/svg/facebook_icon.svg" alt=""></a></li>
+				<li class="m-1"><a href=""><img class="icon" src="images/svg/instagram_icon.svg" alt=""></a></li>
+				<li class="m-1"><a href=""><img class="icon" src="images/svg/telegram_icon.svg" alt=""></a></li>
+				<li class="m-1"><a href=""><img class="icon" src="images/svg/twitter_icon.svg" alt=""></a></li>
+				<li class="m-1"><a href=""><img class="icon" src="images/svg/linkedIn_icon.svg" alt=""></a></li>
+				<li class="m-1"><a href=""><img class="icon" src="images/svg/youtube_icon.svg" alt=""></a></li>
+			</ul>
+			<p id="copyright" class="px-5 py-3">&copy;2024 WanderCarpathians<br>Всі права захищено</p>
+		</div>
+	</footer>
+</div>
+</body>
+
+</html>

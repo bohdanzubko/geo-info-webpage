@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<photo-gallery>
+  <photo>
+    <id>1</id>
+    <category>Категорії / Населені пункти</category>
+    <image>images/jpg/categories/category-1.jpg</image>
+  </photo>
+  <photo>
+    <id>2</id>
+    <category>Категорії / Туристичні маршрути</category>
+    <image>images/jpg/categories/category-2.jpg</image>
+  </photo>
+  <photo>
+    <id>3</id>
+    <category>Категорії / Водні ресурси</category>
+    <image>images/jpg/categories/category-3.jpg</image>
+  </photo>
+  <photo>
+    <id>4</id>
+    <category>Категорії / Екстремальний відпочинок</category>
+    <image>images/jpg/categories/category-4.jpg</image>
+  </photo>
+  <photo>
+    <id>5</id>
+    <category>Напрямки / Східні Бескиди</category>
+    <image>images/jpg/directions/direction-1.jpg</image>
+  </photo>
+  <photo>
+    <id>6</id>
+    <category>Напрямки / Район курорту Драгобрат</category>
+    <image>images/jpg/directions/direction-2.jpg</image>
+  </photo>
+  <photo>
+    <id>7</id>
+    <category>Напрямки / Зелена перлина Карпат</category>
+    <image>images/jpg/directions/direction-3.jpg</image>
+  </photo>
+  <photo>
+    <id>8</id>
+    <category>Туристичні маршрути / Озеро Марічейка</category>
+    <image>images/jpg/tours/maricheyka.jpg</image>
+  </photo>
+  <photo>
+    <id>9</id>
+    <category>Туристичні маршрути / Полонина Боржава</category>
+    <image>images/jpg/tours/borzhava.jpg</image>
+  </photo>
+  <photo>
+    <id>10</id>
+    <category>Туристичні маршрути / Скелі Довбуша</category>
+    <image>images/jpg/tours/dovbush.jpg</image>
+  </photo>
+  <photo>
+    <id>11</id>
+    <category>Туристичні маршрути / Урочище Драгобрат</category>
+    <image>images/jpg/tours/dragobrat.jpg</image>
+  </photo>
+  <photo>
+    <id>12</id>
+    <category>Туристичні маршрути / Гора Говерла</category>
+    <image>images/jpg/tours/hoverla.jpg</image>
+  </photo>
+  <photo>
+    <id>13</id>
+    <category>Туристичні маршрути / Гора Хом'як</category>
+    <image>images/jpg/tours/khomiak.jpg</image>
+  </photo>
+  <photo>
+    <id>14</id>
+    <category>Туристичні маршрути / Полонина Красна</category>
+    <image>images/jpg/tours/krasna.jpg</image>
+  </photo>
+  <photo>
+    <id>15</id>
+    <category>Туристичні маршрути / Манявський водоспад</category>
+    <image>images/jpg/tours/maniava.jpg</image>
+  </photo>
+  <photo>
+    <id>16</id>
+    <category>Туристичні маршрути / Озеро Несамовите</category>
+    <image>images/jpg/tours/nesamovyte.jpg</image>
+  </photo>
+  <photo>
+    <id>17</id>
+    <category>Туристичні маршрути / Гора Парашка</category>
+    <image>images/jpg/tours/parashka.jpg</image>
+  </photo>
+  <photo>
+    <id>18</id>
+    <category>Туристичні маршрути / Гора Петрос</category>
+    <image>images/jpg/tours/petros.jpg</image>
+  </photo>
+  <photo>
+    <id>19</id>
+    <category>Туристичні маршрути / Піп Іван Чорногірський</category>
+    <image>images/jpg/tours/pipivan.jpg</image>
+  </photo>
+  <photo>
+    <id>20</id>
+    <category>Туристичні маршрути / Водоспад Шипіт</category>
+    <image>images/jpg/tours/shipit.jpg</image>
+  </photo>
+  <photo>
+    <id>21</id>
+    <category>Туристичні маршрути / Озеро Синевир</category>
+    <image>images/jpg/tours/synevyr.jpg</image>
+  </photo>
+  <photo>
+    <id>22</id>
+    <category>Туристичні маршрути / Гора Високий Камінь</category>
+    <image>images/jpg/tours/vysokiy-kamin.jpg</image>
+  </photo>
+  <photo>
+    <id>23</id>
+    <category>Українські Карпати</category>
+    <image>images/jpg/welcome/about-us-welcome.jpg</image>
+  </photo>
+  <photo>
+    <id>24</id>
+    <category>Українські Карпати</category>
+    <image>images/jpg/welcome/main-welcome.jpg</image>
+  </photo>
+  <photo>
+    <id>25</id>
+    <category>Українські Карпати</category>
+    <image>images/jpg/welcome/tour-welcome.jpg</image>
+  </photo>
+</photo-gallery>

@@ -1,0 +1,59 @@
+#hiddenMenu {
+	width: 250px;
+	position: fixed;
+	top: 0;
+	left: -250px;
+	height: 100%;
+	background: linear-gradient(to bottom, rgb(31, 56, 29), rgb(100, 160, 95));
+	overflow-x: hidden;
+	transition: 0.3s;
+	z-index: 999;
+	padding-top: 20px;
+}
+
+#hiddenMenu a {
+	padding: 8px 16px;
+	transition: 0.3s;
+}
+
+#hiddenMenu a:hover {
+	background-color: #516b4fae;
+}
+
+.nav-link.active{
+	background-color: rgba(0, 0, 0, 0.300);
+}
+
+.dropdown .dropdown-menu {
+	background-color: #31562f;
+	color: #fff;
+}
+
+#menuButton {
+	font-size: 36px;
+	cursor: pointer;
+	position: fixed;
+	top: 15px;
+	left: 15px;
+	z-index: 1000;
+	color: #fff;
+}
+
+#menuBgrd{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	z-index: 998;
+	background-color: #0000007b;
+	visibility: hidden;
+}
+
+@media screen and (max-width: 768px){
+	#menuButton{
+		font-size: 26px;
+	}
+}

@@ -1,0 +1,54 @@
+@import	"common.css";
+
+@import	"reset.css";
+
+@import	"header.css";
+
+@import	"hiddenMenu.css";
+
+@import	"logo.css";
+
+@import	"advices.css";
+
+@import	"cards.css";
+
+@import	"buttons.css";
+
+@import	"tours.css";
+
+@import	"footer.css";
+
+.welcome-msg{
+	height: 700px;
+	background-size: cover;
+	text-shadow: 0 0 6px rgba(0, 0, 0, 0.7);
+}
+
+.welcome-msg h2{
+	font-size: 40px;
+	font-weight: 900;
+}
+
+.no-gutters > [class*='col'], .container-fluid {
+	padding: 0;
+	margin: 0;
+}
+
+.img-brt{
+	filter: brightness(0.8);
+}
+
+.dark-bg-box{
+	font-size: 12px;
+	line-height: 24px;
+	padding: 0 5px;
+	background-color: rgba(0, 0, 0, 0.700);
+}
+
+.int-map{
+	height: 800px;
+}
+
+.divid{
+	background-color: #f1f1f1;
+}

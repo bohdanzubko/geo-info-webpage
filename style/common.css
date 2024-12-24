@@ -1,0 +1,25 @@
+body {
+	font-size: 18px;
+	font-family: Mulish, sans-serif, Arial;
+	background: linear-gradient(to right, rgb(31, 56, 29), rgb(100, 160, 95));
+	color: white;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+span{
+	color: #000;
+}
+
+a {
+	text-decoration: none !important;
+	color: inherit !important;
+}
+
+@media screen and (max-width: 768px){
+	.body {
+		font-size: 14px;
+	}
+}

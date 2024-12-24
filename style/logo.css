@@ -1,0 +1,19 @@
+.logo-text{
+	font-weight: 700;
+	line-height: 70px;
+}
+
+.logo-img{
+	min-width: 130px;
+	width: 200px;
+}
+
+@media screen and (max-width: 1024px){
+	.logo{
+		height: 80px;
+	}
+
+	.logo-text{
+		display: none;
+	}
+}
